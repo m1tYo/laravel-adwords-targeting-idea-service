@@ -2,8 +2,6 @@
 
 namespace SchulzeFelix\AdWords\Responses;
 
-use SchulzeFelix\DataTransferObject\DataTransferObject;
-
 class Keyword extends DataTransferObject
 {
     protected $casts = [
