@@ -10,5 +10,8 @@ class Keyword extends DataTransferObject
         'cpc'                       => 'float',
         'competition'               => 'float',
         'targeted_monthly_searches' => 'collection',
+        'amz_search_volume'         => 'integer',
+        'amz_seasonality'           => 'string',
+        'amz_categories'            => 'array'
     ];
 }
